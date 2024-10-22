@@ -2685,6 +2685,7 @@ once.repo.init() #
       fi
     fi
     once.cmd git
+    once.cmd git-lfs
     git clone -c core.symlinks=true web4xGitHub:web4x/WODA.git EAMD.ucp
 
     important.log "ONCE_SCENARIO=$ONCE_SCENARIO
